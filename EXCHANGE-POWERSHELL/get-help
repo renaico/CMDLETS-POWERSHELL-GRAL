@@ -1,0 +1,11 @@
+$ get-help get-mailbox -detailed
+#detalles
+
+$ get-help get-mailbox -full
+#info completa
+
+$ get-help get-mailbox -online
+#pagina del foro online
+
+$ get-help get-mailbox -examples
+#algunos ejemplos

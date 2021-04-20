@@ -1,0 +1,4 @@
+$cd C:\Users\usuario
+Robocopy .\origen\ .\destino\ /s /xo /z /np
+
+xcopy .\origen\*.* .\destino /S /Y /d
