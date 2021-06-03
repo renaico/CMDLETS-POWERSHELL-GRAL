@@ -1,0 +1,4 @@
+
+$ New-Item -ItemType SymbolicLink -Path "C:\PROYECTOS-GIT" -Target "C:\Users\RenéMoralesB\OneDrive - XMS TECHNOLOGIES S.A\Documentos\XMS-DOCU\07.-GIT-PROJECTS"
+
+$ New-Item -ItemType SymbolicLink -Path "nombre-del-nuevo-link" -Target "ruta-destino"

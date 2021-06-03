@@ -1,0 +1,16 @@
+1.- Iniciar ser vidor en Modo seguro (DSRM)
+
+$ msconfig
+
+2.- obtener versiones de respaldos
+
+$ wbadmin get versions 
+
+3.- cargar respaldo
+
+$ wbadmin start systemstate recovery -version:mm/dd/aaaa-HH-mm
+$ start recovery
+
+##acceptar avisos de reinicio y notificacion de que no se puede cancelar.  
+
+
