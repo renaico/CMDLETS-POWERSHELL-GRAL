@@ -1,5 +1,5 @@
 
-    #Este Script Tiene como Finalidad elininar los perfiles cuyo ultimo login tiene un dia de antiguedad
+    # Este Script Tiene como Finalidad elininar los perfiles cuyo ultimo login tiene un dia de antiguedad
     # Habilitacion de la ejecucion de scripts en la maquina
     set-executionpolicy remotesigned
     # La siguiente linea define los perfiles que nunca se eliminaran
