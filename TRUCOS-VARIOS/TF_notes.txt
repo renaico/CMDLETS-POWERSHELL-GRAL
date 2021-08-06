@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #CHECK WORKSPACES BY OWNER
 
@@ -24,3 +25,31 @@ tf vc workspace /delete DESKTOP-A31GN72_1;fb6a6837-a428-4000-abc2-2bd310291fc6
 
 
 
+=======
+
+#CHECK WORKSPACES BY OWNER
+
+$tf vc workspaces /owner:"USUARIO" /login:ADMIN.ACOUNT,ADMINPWD /collection:REPOURL
+
+$tf vc workspaces /owner:"Iván Jara Muñoz" /login:ivan.alcaman@aguasnuevas.cl,Aguas.2020 /collection:https://aguasnuevasprod.visualstudio.com/
+
+# CHECK ALL WORKSPACES 
+
+$tf vc workspaces /owner:* /login:ivan.alcaman@aguasnuevas.cl,Aguas.2020 /collection:https://aguasnuevasprod.visualstudio.com/
+
+##UNDO ALL CHANGES BY WORKSPACE;USERNAME
+
+$tf vc undo /workspace:WORSPACE;USERNAME /login:ADMIN.ACOUNT,ADMINPWD /collection:REPOURL /recursive $/
+
+$tf vc undo /workspace:Oficial;"Jorge Salgado" /login:ivan.alcaman@aguasnuevas.cl,Aguas.2020 /collection:https://aguasnuevasprod.visualstudio.com/ /recursive $/
+
+$tf vc undo /workspace:DESKTOP-TTORE7E;ivan.alcaman /login:ivan.alcaman@aguasnuevas.cl,Aguas.2020 /collection:https://aguasnuevasprod.visualstudio.com/ /recursive $/
+
+tf vc workspaces /owner:* /computer:computername /format:xml
+--> owneruniq="fb6a6837-a428-4000-abc2-2bd310291fc6
+
+tf vc workspace /delete DESKTOP-A31GN72_1;fb6a6837-a428-4000-abc2-2bd310291fc6  
+
+
+
+>>>>>>> 7b7df7a316a4da176f5533f1e7884eb1a1be8760

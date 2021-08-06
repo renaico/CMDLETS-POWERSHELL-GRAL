@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 #TYPE Selected.System.Management.ManagementObject
 "path"
 "C:\WINDOWS"
 "C:\"
 "C:\shared"
+=======
+#TYPE Selected.System.Management.ManagementObject
+"path"
+"C:\WINDOWS"
+"C:\"
+"C:\shared"
+>>>>>>> 7b7df7a316a4da176f5533f1e7884eb1a1be8760

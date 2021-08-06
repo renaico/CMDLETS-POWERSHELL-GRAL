@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ##  buscar ayuda de los cmdlets
 
 $ get-command *string*
@@ -8,3 +9,15 @@ $ get-command -Verb set
 $ get-command -noun service
 # buscara todos todos los cmdlets con el string "service"|  
 
+=======
+##  buscar ayuda de los cmdlets
+
+$ get-command *string*
+
+$ get-command -Verb set
+# bucara todos los con cmdlets con la accion set 
+
+$ get-command -noun service
+# buscara todos todos los cmdlets con el string "service"|  
+
+>>>>>>> 7b7df7a316a4da176f5533f1e7884eb1a1be8760
