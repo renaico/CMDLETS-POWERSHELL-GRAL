@@ -1,0 +1,12 @@
+
+###TO GET CALENDAR NAME####
+
+Get-MailboxFolderStatistics user -FolderScope Calendar
+
+#### TO GET CALENDAR PERMISSIONS ### 
+
+Get-MailboxFolderPermission user:\calendar
+
+### to share calendar 
+
+Add-MailboxFolderPermission –Identity david.fernandez@fepasa.com:\calendario –User maritza.flores@fepasa.com -AccessRights Editor -SharingPermissionFlags Delegate

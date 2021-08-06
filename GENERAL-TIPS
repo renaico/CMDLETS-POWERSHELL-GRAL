@@ -1,0 +1,10 @@
+##  buscar ayuda de los cmdlets
+
+$ get-command *string*
+
+$ get-command -Verb set
+# bucara todos los con cmdlets con la accion set 
+
+$ get-command -noun service
+# buscara todos todos los cmdlets con el string "service"|  
+

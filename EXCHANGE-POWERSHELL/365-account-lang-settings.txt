@@ -1,0 +1,9 @@
+
+Get-ADUser -Identity Antoine.goir@skconverge.com | Set-ADUser –replace @{PreferredLanguage="fr-FR"}
+
+Get-ADUser -Identity ivaneza.rodrigues@skconverge.com | Set-ADUser –replace @{PreferredLanguage="pt-BR"}
+
+Get-ADUser -Identity Morgan.brooks@sk.cl | Set-ADUser –replace @{PreferredLanguage="en-US"} 
+
+
+set-MailboxRegionalConfiguration -Identity antoine.goir@skconverge.com -Language fr-FR
