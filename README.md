@@ -1,2 +1,2 @@
-# CMDLETS-POWERSHELL-GRAL
-Power shell en gral
+# recetas y scripts ejecutadas en powershell por Renaico
+#Powershell
